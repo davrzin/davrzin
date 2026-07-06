@@ -117,7 +117,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Contribui%C3%A7%C3%B5es-GitHub%20Actions%20em%20configura%C3%A7%C3%A3o-3B82F6?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img width="100%" src="https://raw.githubusercontent.com/davrzin/davrzin/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 </div>
 
