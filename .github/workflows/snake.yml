@@ -22,6 +22,28 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Crop snake SVG
+        run: |
+          node - <<'NODE'
+          const fs = require("fs");
+
+          const files = [
+            "dist/github-contribution-grid-snake.svg",
+            "dist/github-contribution-grid-snake-dark.svg"
+          ];
+
+          for (const file of files) {
+            let svg = fs.readFileSync(file, "utf8");
+
+            svg = svg.replace(
+              /<svg viewBox="[^"]+" width="[^"]+" height="[^"]+"/,
+              '<svg viewBox="0 0 864 112" width="864" height="112" overflow="hidden"'
+            );
+
+            fs.writeFileSync(file, svg);
+          }
+          NODE
+
       - name: Push snake animation to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
