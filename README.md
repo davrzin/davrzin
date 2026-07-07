@@ -106,7 +106,7 @@
 <div align="center">
 
 <a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=davrzin&theme=dark&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=davrzin&theme=dark&hide_border=true" alt="GitHub Streak"/>
 </a>
 
 </div>
@@ -120,17 +120,6 @@
 <img width="100%" src="https://raw.githubusercontent.com/davrzin/davrzin/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 </div>
-
-<!--
-Quando a Action Generate Snake rodar com sucesso e criar o branch output,
-você pode trocar a seção acima por esta:
-
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/davrzin/davrzin/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-
-</div>
--->
 
 ---
 
