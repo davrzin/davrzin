@@ -105,9 +105,9 @@
 
 <div align="center">
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com/?user=davrzin&theme=dark&hide_border=true" alt="GitHub Streak"/>
-</a>
+<img src="https://img.shields.io/badge/GitHub-Atividade%20em%20evolu%C3%A7%C3%A3o-3B82F6?style=for-the-badge&logo=github&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Backend-Java%20%7C%20Spring%20Boot-1E3A8A?style=for-the-badge&logo=spring&logoColor=white"/>
 
 </div>
 
