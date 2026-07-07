@@ -105,9 +105,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/GitHub-Perfil%20em%20evolu%C3%A7%C3%A3o-3B82F6?style=for-the-badge&logo=github&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Projetos-Acad%C3%AAmicos%20e%20Backend-1E3A8A?style=for-the-badge&logo=code&logoColor=white"/>
+<img width="100%" src="https://streak-stats.demolab.com?user=davrzin&theme=github-dark-blue&hide_border=true&locale=pt_BR" alt="GitHub Streak"/>
 
 </div>
 
@@ -142,8 +140,8 @@ você pode trocar a seção acima por esta:
   <img src="https://img.shields.io/badge/LinkedIn-Davi%20Roberto-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
-<a href="mailto:rdavi114@gmail.com">
-  <img src="https://img.shields.io/badge/Email-rdavi114@gmail.com-D14836?style=for-the-badge&logo=gmail"/>
+<a href="mailto:rdavi113@gmail.com">
+  <img src="https://img.shields.io/badge/Email-rdavi113@gmail.com-D14836?style=for-the-badge&logo=gmail"/>
 </a>
 
 <a href="https://github.com/davrzin">
