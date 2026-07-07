@@ -22,31 +22,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Keep snake inside grid
-        run: |
-          node - <<'NODE'
-          const fs = require("fs");
-
-          const files = [
-            "dist/github-contribution-grid-snake.svg",
-            "dist/github-contribution-grid-snake-dark.svg"
-          ];
-
-          for (const file of files) {
-            let svg = fs.readFileSync(file, "utf8");
-
-            svg = svg.replace(
-              /<svg viewBox="[^"]+" width="[^"]+" height="[^"]+"/,
-              '<svg viewBox="0 0 864 112" width="864" height="112" style="overflow:hidden"'
-            );
-
-            svg = svg.replace(/translate\(([-\d.]+)px,-16px\)/g, "translate($1px,0px)");
-            svg = svg.replace(/translate\(([-\d.]+)px,112px\)/g, "translate($1px,96px)");
-
-            fs.writeFileSync(file, svg);
-          }
-          NODE
-
       - name: Push snake animation to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
