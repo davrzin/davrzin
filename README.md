@@ -105,7 +105,9 @@
 
 <div align="center">
 
-<img width="100%" src="https://streak-stats.demolab.com?user=davrzin&theme=github-dark-blue&hide_border=true&locale=pt_BR" alt="GitHub Streak"/>
+<a href="https://git.io/streak-stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=davrzin&theme=dark&hide_border=true" alt="GitHub Streak"/>
+</a>
 
 </div>
 
